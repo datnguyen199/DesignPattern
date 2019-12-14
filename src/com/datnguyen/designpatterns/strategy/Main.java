@@ -1,4 +1,4 @@
-package com.datnguyen.designpattern.strategy;
+package com.datnguyen.designpatterns.strategy;
 
 public class Main {
 	public static void main(String[] args) {
