@@ -1,4 +1,4 @@
-package com.datnguyen.designpattern.decorator;
+package com.datnguyen.designpatterns.decorator;
 
 public class Mocha extends CondimentDecorator {
 	

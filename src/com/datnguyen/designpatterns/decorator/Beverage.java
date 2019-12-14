@@ -1,4 +1,4 @@
-package com.datnguyen.designpattern.decorator;
+package com.datnguyen.designpatterns.decorator;
 
 public abstract class Beverage {
 	String description = "Beverage";
