@@ -1,4 +1,4 @@
-package com.datnguyen.designpatterns.factory;
+package com.datnguyen.designpatterns.abtractfactory;
 
 public class CheesePizza extends Pizza {
 	
@@ -7,11 +7,12 @@ public class CheesePizza extends Pizza {
 	public CheesePizza(PizzaIngredientFactory pf) {
 		this.pizzaFactory = pf;
 	}
+	
 	@Override
 	public void prepare() {
 		System.out.println("Prepare cheese pizza");
 		pizzaFactory.createDough();
-		pizzaFactory.createSouce();
+		pizzaFactory.createSauce();
 	}
 
 }
