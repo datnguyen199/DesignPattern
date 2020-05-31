@@ -1,2 +1,2 @@
 # DesignPattern
-Implement Design patterns in Head First Design Pattern
+Learn Design patterns through examples
